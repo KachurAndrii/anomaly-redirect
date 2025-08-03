@@ -1,1 +1,273 @@
-# anomaly-redirect
+Skip to content
+Navigation Menu
+KachurAndrii
+anomaly-redirect
+
+Type / to search
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+Commit 2f40caf
+KachurAndrii
+KachurAndrii
+authored
+5 minutes ago
+·
+·
+Verified
+Create ф
+main
+1 parent 
+c5163a5
+ commit 
+2f40caf
+File tree
+Filter files…
+Filter options
+ф
+1 file changed
++223
+-0
+lines changed
+Search within code
+ 
+Customizable line height
+The default line height has been increased for improved accessibility. You can choose to enable a more compact line height from the view settings menu.
+
+‎ф
++223
+Lines changed: 223 additions & 0 deletions
+Original file line number	Diff line number	Diff line change
+@@ -0,0 +1,223 @@
+<!DOCTYPE html><!-- Last Published: Wed Jun 18 2025 09:51:57 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="www.cryptobrain.cc" data-wf-page="64c7a0e4aea929123928bb35" data-wf-site="646e2b0d529cb4c123d6612f"><head><meta charset="utf-8"/><title>Crypto Brain Club</title><meta content="Вхід назавжди" name="description"/><meta content="Crypto Brain Club" property="og:title"/><meta content="Вхід назавжди" property="og:description"/><meta content="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/65a7ed79771941468c9728b9_Screenshot_2.jpg" property="og:image"/><meta content="Crypto Brain Club" property="twitter:title"/><meta content="Вхід назавжди" property="twitter:description"/><meta content="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/65a7ed79771941468c9728b9_Screenshot_2.jpg" property="twitter:image"/><meta property="og:type" content="website"/><meta content="summary_large_image" name="twitter:card"/><meta content="width=device-width, initial-scale=1" name="viewport"/><link href="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/css/nazarii-site.webflow.shared.ec8d5df89.css" rel="stylesheet" type="text/css"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous"/><script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script><script type="text/javascript">WebFont.load({  google: {    families: ["Inter Tight:100,200,300,regular,500,600,700,800,900:cyrillic,cyrillic-ext,latin,latin-ext","Wix Madefor Display:regular,500,600,700,800:cyrillic,cyrillic-ext,latin,latin-ext"]  }});</script><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64cb71b8ea43d08fe3e5bcf2_Frame%201000002522.png" rel="shortcut icon" type="image/x-icon"/><link href="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64cb71ba398af70205c20f62_Frame%201000002523.png" rel="apple-touch-icon"/><style>
+	.grad {
+  	pointer-events: none;
+  }
+  @media screen and (max-width: 479px) {
+  	  .owl-nav {
+        grid-column-gap: 4vw;
+      }
+  }
+  @media screen and (max-width: 991px) {
+  	  .owl-nav {
+        grid-column-gap: 2.6vw;
+      }
+  }
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+<style>
+	img {
+  	pointer-events: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+  }
+  @media screen and (max-width: 479px) {
+    .owl-stage {
+      transition: all 0.7s ease-in-out !important;
+    }
+  }
+  @media screen and (max-width: 479px) {
+  	  .owl-nav {
+        grid-column-gap: 4vw;
+      }
+  }
+  @media screen and (max-width: 991px) {
+  	  .owl-nav {
+        grid-column-gap: 2.6vw;
+      }
+  }
+  .owl-slider {
+  	display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .owl-stage {
+  	display: flex;
+  }
+  .owl-nav {
+  	display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-gap: 0.5vw;
+  }
+  
+  .owl-prev,
+  .owl-next,
+  .owl-prev::before,
+  .owl-next::before {
+  	transition: all .3s ease-in-out;
+  }
+  .owl-prev::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-image: url(https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64c3a5fc891d0219a3dd2dc2_l.svg);
+  	background-repeat: no-repeat;
+    background-position: center;
+  }
+  .owl-next::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-image: url(https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64c3a607686438dbe4d97c67_r.svg);
+  	background-repeat: no-repeat;
+    background-position: center;
+  }
+	
+  .owl-prev:hover, 
+  .owl-next:hover {
+  	background-color: #00ff68;
+  }
+  .owl-prev:hover::before, 
+  .owl-next:hover::before {
+  	filter: brightness(0%);
+  }
+</style></head><body class="body-2"><div style="display:none;opacity:0" class="popup-inf"><div class="txt20">Адресу скопійовано</div></div><div class="popup _1"><div class="popup-cont"><div class="popup-wrp hide"><div class="txt-50 grn upper sz"><strong>Оплатити в USDT (TRC20)</strong></div><a href="mailto:crypto.brain.sup@gmail.com" class="nav-link-copy lower w-inline-block"><div class="txt20 break">TLpLPxk9GZACedmSgu7W1x7yh3JfVCxjHk</div></a><a id="copy-btn" data-w-id="08dce189-c4d7-253c-5f22-5cebcc7c01f2" href="#" class="button-wrp grn w-inline-block"><div class="txt20">Скопіювати адресу</div></a><div class="txt20 wd-2">Після того як відправите 1111 USDT на цю адресу, напишіть нам в <a href="https://t.me/crypto_brain_support" target="_blank" class="link2 grn">підтримку</a></div></div><div class="hr hide"></div><div class="popup-wrp"><div class="txt-54 prp upper sz hide"><strong>Оплатити картою</strong></div><div class="price-cont-wrp"><div class="price-wrp"><div class="price-len-wrp"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/65a7ec35de6815a52652d4d4_solar_calendar-outline.svg" loading="eager" alt="" class="calender-im"/><div class="txt44 pop-sz"><strong>3 МІСЯЦІ</strong></div></div><div class="txt44 pop-sz"><strong class="grn">$270</strong></div></div><div class="hr"></div><div class="price-wrp"><div class="price-len-wrp"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/65a7ec35de6815a52652d4d4_solar_calendar-outline.svg" loading="eager" alt="" class="calender-im"/><div class="txt44 pop-sz"><strong>6 МІСЯЦІВ</strong></div></div><div class="txt44 pop-sz"><strong class="grn">$480</strong></div></div><div class="hr"></div><div class="price-wrp"><div class="price-len-wrp"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/65a7ec35de6815a52652d4d4_solar_calendar-outline.svg" loading="eager" alt="" class="calender-im"/><div class="txt44 pop-sz"><strong>12 МІСЯЦІВ</strong></div></div><div class="txt44 pop-sz"><strong class="grn">$840</strong></div></div><div class="hr"></div></div><a href="https://t.me/crypto_brain_support" target="_blank" class="button-wrp prp w100 w-inline-block"><div class="txt20">ПРИЄДНАТИСЯ</div></a></div></div><div data-w-id="08dce189-c4d7-253c-5f22-5cebcc7c0201" class="popup-bg"></div><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64ce411090468059ede3bfab_Group%201000002808.svg" loading="eager" data-w-id="08dce189-c4d7-253c-5f22-5cebcc7c0202" alt="" class="close-ico"/></div><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64c37cac2b0f016d65e0fee5_Image.webp" loading="eager" sizes="100vw" srcset="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64c37cac2b0f016d65e0fee5_Image-p-500.webp 500w, https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64c37cac2b0f016d65e0fee5_Image-p-800.webp 800w, https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64c37cac2b0f016d65e0fee5_Image-p-1080.webp 1080w, https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64c37cac2b0f016d65e0fee5_Image-p-1600.webp 1600w, https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64c37cac2b0f016d65e0fee5_Image.webp 1920w" alt="" class="bg-im"/><div data-w-id="c95aefa4-8237-b4f2-44d8-41848f495a6f" class="nav"><a href="/" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/65a7a7bdaa34b3d1fc258792_Paragraph%20container.svg" loading="eager" alt="" class="logo-im"/></a><div class="nav-links"><a href="/club" aria-current="page" class="nav-link w-inline-block w--current"><div class="txt20">Club</div></a><a href="/academy" class="nav-link w-inline-block"><div class="txt20">Academy</div></a><a href="/marathon" class="nav-link w-inline-block"><div class="txt20">Marathon</div></a><a href="/about" class="nav-link w-inline-block"><div class="txt20">про мене</div></a></div><a href="https://t.me/CryptoBrain_Support" target="_blank" class="button-wrp nv w-inline-block"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64c37c338561c58fd47e1fe2_cib_telegram-plane.svg" loading="eager" alt="" class="sec-ico"/><div class="txt20">підтримка</div></a><div class="burger-wrp"><div data-w-id="c95aefa4-8237-b4f2-44d8-41848f495a87" class="nav-open"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64c514818b8dda8ee13a1dd8_burger.svg" loading="eager" alt="" class="burger-im"/></div><div data-w-id="c95aefa4-8237-b4f2-44d8-41848f495a89" class="nav-close"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64c514a94fbe08b47fb284f5_close.svg" loading="eager" alt="" class="close-im"/></div></div></div><div class="mob-nav"><div class="nav-links mob"><a href="/club" aria-current="page" class="nav-link mob w-inline-block w--current"><div class="txt20 nv-sz">Club</div></a><a href="/academy" class="nav-link mob w-inline-block"><div class="txt20 nv-sz">Academy</div></a><a href="/marathon" class="nav-link mob w-inline-block"><div class="txt20 nv-sz">Marathon</div></a><a href="/about" class="nav-link mob w-inline-block"><div class="txt20 nv-sz">про мене</div></a></div><a data-w-id="51c02514-1c43-ca3a-6378-b322a6166a18" href="https://t.me/crypto_brain_support" target="_blank" class="button-wrp nv mob w-inline-block"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64c37c338561c58fd47e1fe2_cib_telegram-plane.svg" loading="eager" alt="" class="sec-ico"/><div class="txt20">підтримка</div></a></div><div class="no-overflow"><section data-w-id="6ac78a92-71ff-d2a3-199a-89c1d79b197c" class="intro"><div class="container2 intr"><div class="intro-wrp"><div class="hd-wrp"><div data-w-id="930260ff-02eb-be5c-45e2-4e73b4bbc6f3" style="width:0px" class="text-mask marg mob-w100"><h1 class="txt80 wd sz2">crypto <span class="prp">brain</span></h1></div><div data-w-id="68445f11-e4e5-0622-c8e6-3bf6e3fd35b6" style="width:0px" class="text-mask mob-w100"><h1 class="txt236"><span class="grn">club</span></h1></div></div><div data-w-id="363a1464-b9d3-dc47-be18-b04f1f0b922d" class="intr-im-wrp pad"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64c7a70f8e47fcca6e2365d2_image%2012.webp" loading="eager" alt="" class="club-im"/><div data-w-id="0bcf868f-a3a6-2d24-8230-b9115fde7af4" style="width:0px" class="im-mask _1"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64c7a77968baad83144dc184_Group%201000002799.webp" loading="eager" alt="" class="club-im-txt1 stat"/></div><div data-w-id="ff66dd30-c03f-f868-2c41-2000f8a5c787" style="width:0px" class="im-mask _2"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64c7a7797651ef6ba5d59e6a_Group%201000002800.webp" loading="eager" alt="" class="club-im-txt2"/></div><div data-w-id="14023d8a-5b04-4735-81d7-e45808f05cba" style="width:0px" class="im-mask _3"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/65a557ed51fda765900590aa_Group%201000002811.webp" loading="eager" alt="" class="club-im-txt3"/></div><div data-w-id="96a5bd5b-c22d-5e72-da8b-8538a6aa0b33" style="width:0px" class="im-mask _4"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64c7a779d9a2f343eb14d2d2_Group%201000002802.webp" loading="eager" alt="" class="club-im-txt4"/></div><div data-w-id="48d6f10d-05ac-672b-0996-4b260f3de906" style="width:0px" class="im-mask _5"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64c7a779537f6929b283770e_Group%201000002803.webp" loading="eager" alt="" class="club-im-txt5"/></div></div></div></div><div class="shadow"></div></section><section class="expect"><div class="container2"><div data-w-id="4ab4c8e8-519b-f545-54c2-faaef9318923" style="opacity:0" class="expect-card"><div id="w-node-de23cebb-893d-a314-4da5-efe092c621a9-3928bb35" class="list-cont"><div data-w-id="5bb96f04-9370-a9b4-d660-625420088e18" style="width:0px" class="text-mask"><h2 class="txt70">ЩО ВАС ОЧiКУЄ?</h2></div><div class="list"><div id="w-node-_1f899ff0-74fb-3ba3-8df8-4d951c606342-3928bb35" class="li-itm"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64c7a427086d0fd7616059e7_ic_baseline-check-circle.svg" loading="eager" alt="" class="li-ico"/><div class="txt20">Професійна аналітика ринку</div></div><div id="w-node-_1adf6c43-e7f6-c8d4-6007-c2fab46b0625-3928bb35" class="li-itm"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64c7a427086d0fd7616059e7_ic_baseline-check-circle.svg" loading="eager" alt="" class="li-ico"/><div class="txt20">Коло однодумців</div></div><div id="w-node-_3f52d579-be1d-befb-11a5-8e9712e5b4ca-3928bb35" class="li-itm"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64c7a427086d0fd7616059e7_ic_baseline-check-circle.svg" loading="eager" alt="" class="li-ico"/><div class="txt20">Регулярні онлайн-стріми із записами</div></div><div id="w-node-_5eaace05-ad36-b24a-e46a-a8104c28c61a-3928bb35" class="li-itm"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64c7a427086d0fd7616059e7_ic_baseline-check-circle.svg" loading="eager" alt="" class="li-ico"/><div class="txt20">Постійна підтримка та спілкування 24/7 з командою</div></div><div id="w-node-_7fe97903-4fa6-d486-6f38-a558e1034b91-3928bb35" class="li-itm"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64c7a427086d0fd7616059e7_ic_baseline-check-circle.svg" loading="eager" alt="" class="li-ico"/><div class="txt20 wd2">Корисні статті для саморозвитку</div></div><div id="w-node-_360bf875-83d2-d3f5-12cf-6e70448992db-3928bb35" class="li-itm"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64c7a427086d0fd7616059e7_ic_baseline-check-circle.svg" loading="eager" alt="" class="li-ico"/><div class="txt20">Думки та рекомендації по ринку від трейдерів CRYPTO BRAIN</div></div><div id="w-node-_60946c93-3e23-b7fa-e730-4b72c9dbb601-3928bb35" class="li-itm mob-last"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64c7a427086d0fd7616059e7_ic_baseline-check-circle.svg" loading="eager" alt="" class="li-ico"/><div class="txt20">Постійне оновлення та покращення навчання</div></div><div id="w-node-_66cbad12-2c1d-327a-f564-4f49576453aa-3928bb35" class="li-itm"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64c7a427086d0fd7616059e7_ic_baseline-check-circle.svg" loading="eager" alt="" class="li-ico"/><div class="txt20">Не кнопка &quot;БАБЛО&quot;, якщо ви її<br/>шукаєте — вам не сюди</div></div></div></div><div id="w-node-e5e34aa8-3733-7d36-d060-17f7d56ce31f-3928bb35" data-w-id="e5e34aa8-3733-7d36-d060-17f7d56ce31f" style="opacity:0" class="price-cont center-pc"><div class="price-ttl gp"><div class="txt180">ПІДПИСКА</div><div class="txt70 prp xtrabold">НА КЛУБ</div></div><div class="txt20 wd3">За всіма питаннями звертайтеся в службу турботи</div><div class="price-btn"><div class="txt120 grn hide"><span class="txt60">$</span>1111</div><a data-w-id="bc805995-0d03-84c0-9c84-4bcd48a3a284" href="#" target="_blank" class="button-wrp sld wd w-inline-block"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64c79303372da7dc75721837_Slider.svg" loading="eager" alt="" class="sec-ico"/><div class="txt20">дізнатися ціну</div></a></div></div><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64ca9602d373df83bdd1f323_Paragraph%20container.png" loading="eager" id="w-node-_9688d4c9-cb2a-1f64-0f69-15f21c9d1124-3928bb35" alt="" class="abs-stripe-2"/><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64ca9602d373df83bdd1f323_Paragraph%20container.png" loading="eager" id="w-node-_7a5d36d2-b7df-962e-0c83-d29e66d72be4-3928bb35" alt="" class="abs-stripe-2 bot"/></div></div></section><section id="reviews" class="reviews"><div class="container2"><div class="sec-cont"><div class="more-revs"><div data-w-id="fa0f4e35-5e82-15ef-6ed6-ddd706fa646a" style="width:0px" class="text-mask"><h1 class="txt80"><span class="prp">Вiдгуки</span></h1></div><a href="https://t.me/cryptobrain_reviews" target="_blank" class="button-wrp w-inline-block"><div class="txt20 sm-mob">більше відгуків</div></a></div><div class="slider-wrapper"><div data-w-id="c02e37b7-0f9a-648e-2106-c7ef47f338c3" style="opacity:0" class="owl-slider"><div class="slide-cont wd"><div class="sld-top"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64cab958c7d8022798635095_Ellipse%2047.png" loading="eager" alt="" class="sld-auth-im"/><div class="sld-auth-txt"><div class="txt16">Богдан 27р <br/>м. Львів</div><div class="txt12"><span class="grn">#club</span></div></div></div><a href="#" class="lightbox-link w-inline-block w-lightbox"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64d7907ab928cf4cb9948bd0_image%2047.webp" loading="eager" sizes="(max-width: 479px) 84vw, (max-width: 991px) 35vw, 17vw" srcset="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64d7907ab928cf4cb9948bd0_image%2047-p-500.webp 500w, https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64d7907ab928cf4cb9948bd0_image%2047.webp 546w" alt="" class="slide-im"/><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "_id": "example_img",
+      "origFileName": "image 47.webp",
+      "fileName": "image 47.webp",
+      "fileSize": 24788,
+      "height": 636,
+      "url": "https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64d7907ab928cf4cb9948bd0_image%2047.webp",
+      "width": 546,
+      "type": "image"
+    }
+  ],
+  "group": "1"
+}</script></a></div><div class="slide-cont wd"><div class="sld-top"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64cab958c7d8022798635095_Ellipse%2047.png" loading="eager" alt="" class="sld-auth-im"/><div class="sld-auth-txt"><div class="txt16">Вова 23р <br/>м. Тернопіль</div><div class="txt12"><span class="grn">#club</span></div></div></div><a href="#" class="lightbox-link w-inline-block w-lightbox"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64d7912ac1d24fc0dba8a1c3_image%2048.webp" loading="eager" sizes="(max-width: 479px) 84vw, (max-width: 991px) 35vw, 17vw" srcset="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64d7912ac1d24fc0dba8a1c3_image%2048-p-500.webp 500w, https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64d7912ac1d24fc0dba8a1c3_image%2048.webp 546w" alt="" class="slide-im"/><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "_id": "example_img",
+      "origFileName": "image 48.webp",
+      "fileName": "image 48.webp",
+      "fileSize": 39650,
+      "height": 1014,
+      "url": "https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64d7912ac1d24fc0dba8a1c3_image%2048.webp",
+      "width": 546,
+      "type": "image"
+    }
+  ],
+  "group": "1"
+}</script></a></div><div class="slide-cont wd"><div class="sld-top"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64cab958c7d8022798635095_Ellipse%2047.png" loading="eager" alt="" class="sld-auth-im"/><div class="sld-auth-txt"><div class="txt16">Артур 25р <br/>м. Лісабон</div><div class="txt12"><span class="grn">#club</span></div></div></div><a href="#" class="lightbox-link w-inline-block w-lightbox"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64d79136a648a1aff97acc41_image%2049.webp" loading="eager" sizes="(max-width: 479px) 84vw, (max-width: 991px) 35vw, 17vw" srcset="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64d79136a648a1aff97acc41_image%2049-p-500.webp 500w, https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64d79136a648a1aff97acc41_image%2049.webp 546w" alt="" class="slide-im"/><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "_id": "example_img",
+      "origFileName": "image 49.webp",
+      "fileName": "image 49.webp",
+      "fileSize": 25118,
+      "height": 666,
+      "url": "https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64d79136a648a1aff97acc41_image%2049.webp",
+      "width": 546,
+      "type": "image"
+    }
+  ],
+  "group": "1"
+}</script></a></div><div class="slide-cont wd"><div class="sld-top"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64f30877fe78454605aae537_yCQVuY-YTxq054Ht2XVbqQ.webp" loading="eager" sizes="(max-width: 479px) 16vw, (max-width: 991px) 8vw, 4vw" srcset="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64f30877fe78454605aae537_yCQVuY-YTxq054Ht2XVbqQ-p-500.webp 500w, https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64f30877fe78454605aae537_yCQVuY-YTxq054Ht2XVbqQ.webp 639w" alt="" class="sld-auth-im"/><div class="sld-auth-txt"><div class="txt16">Рома 35р<br/>м.Київ</div><div class="txt12"><span class="grn">#club</span></div></div></div><a href="#" class="lightbox-link w-inline-block w-lightbox"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64f3088683410178f760ed7e_photo_2023-09-02_13-02-19.webp" loading="eager" sizes="(max-width: 479px) 84vw, (max-width: 991px) 35vw, 17vw" srcset="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64f3088683410178f760ed7e_photo_2023-09-02_13-02-19-p-500.webp 500w, https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64f3088683410178f760ed7e_photo_2023-09-02_13-02-19.webp 709w" alt="" class="slide-im"/><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "_id": "64f3088683410178f760ed7e",
+      "origFileName": "photo_2023-09-02_13-02-19.jpg",
+      "fileName": "photo_2023-09-02_13-02-19.jpg",
+      "fileSize": 59841,
+      "height": 1280,
+      "url": "https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64f3088683410178f760ed7e_photo_2023-09-02_13-02-19.jpg",
+      "width": 709,
+      "type": "image"
+    }
+  ],
+  "group": "1"
+}</script></a></div><div class="slide-cont wd"><div class="sld-top"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64cab958c7d8022798635095_Ellipse%2047.png" loading="eager" alt="" class="sld-auth-im"/><div class="sld-auth-txt"><div class="txt16">Юля 33р<br/>м.Житомир</div><div class="txt12"><span class="grn">#club</span></div></div></div><a href="#" class="lightbox-link w-inline-block w-lightbox"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64f308c54ae531679cd68092_photo_2023-09-02_13-04-43.webp" loading="eager" sizes="(max-width: 479px) 84vw, (max-width: 991px) 35vw, (max-width: 6235px) 17vw, 1060px" srcset="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64f308c54ae531679cd68092_photo_2023-09-02_13-04-43-p-500.webp 500w, https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64f308c54ae531679cd68092_photo_2023-09-02_13-04-43-p-800.webp 800w, https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64f308c54ae531679cd68092_photo_2023-09-02_13-04-43.webp 1060w" alt="" class="slide-im"/><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "_id": "64f308c54ae531679cd68092",
+      "origFileName": "photo_2023-09-02_13-04-43.jpg",
+      "fileName": "photo_2023-09-02_13-04-43.jpg",
+      "fileSize": 53215,
+      "height": 746,
+      "url": "https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64f308c54ae531679cd68092_photo_2023-09-02_13-04-43.jpg",
+      "width": 1060,
+      "type": "image"
+    }
+  ],
+  "group": "1"
+}</script></a></div><div class="slide-cont wd"><div class="sld-top"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64f3092659342fcfba21f639_O-kZe9GkTMuVPJwgoi-bMg.webp" loading="eager" sizes="(max-width: 479px) 16vw, (max-width: 991px) 8vw, 4vw" srcset="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64f3092659342fcfba21f639_O-kZe9GkTMuVPJwgoi-bMg-p-500.webp 500w, https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64f3092659342fcfba21f639_O-kZe9GkTMuVPJwgoi-bMg.webp 642w" alt="" class="sld-auth-im"/><div class="sld-auth-txt"><div class="txt16">Вадим 20р<br/>м.Львів</div><div class="txt12"><span class="grn">#club</span></div></div></div><a href="#" class="lightbox-link w-inline-block w-lightbox"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64f3092e505aa955d6925c26_photo_2023-09-02_13-05-21.webp" loading="eager" sizes="(max-width: 479px) 84vw, (max-width: 991px) 35vw, (max-width: 7529px) 17vw, 1280px" srcset="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64f3092e505aa955d6925c26_photo_2023-09-02_13-05-21-p-500.webp 500w, https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64f3092e505aa955d6925c26_photo_2023-09-02_13-05-21-p-800.webp 800w, https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64f3092e505aa955d6925c26_photo_2023-09-02_13-05-21-p-1080.webp 1080w, https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64f3092e505aa955d6925c26_photo_2023-09-02_13-05-21.webp 1280w" alt="" class="slide-im"/><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "_id": "64f3092e505aa955d6925c26",
+      "origFileName": "photo_2023-09-02_13-05-21.jpg",
+      "fileName": "photo_2023-09-02_13-05-21.jpg",
+      "fileSize": 106032,
+      "height": 1115,
+      "url": "https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64f3092e505aa955d6925c26_photo_2023-09-02_13-05-21.jpg",
+      "width": 1280,
+      "type": "image"
+    }
+  ],
+  "group": "1"
+}</script></a></div></div><div class="owl-nav hd"><div class="owl-prev"></div><div class="owl-next"></div></div></div></div></div></section><section class="faq"><div class="container2"><div class="sec-cont"><div data-w-id="fd7a2aca-7fd8-53db-0be9-347f00ed3ace" style="width:0px" class="text-mask"><h2 class="txt80">Частi питання</h2></div><div class="faq-wrp"><div data-w-id="919d4878-ef61-9459-5091-71b5bd45dfbd" class="hr"></div><div class="faq-itm"><div class="faq-top"><div class="faq-ttl"><div class="txt24">01</div><div class="txt44">Чи можна приєднатись в клуб, якщо я зовсім без знань?</div></div><div class="faq-ico"><div class="faq-hr"></div><div class="faq-vr"></div></div></div><div class="faq-bot"><div class="faq-ttl"><div id="w-node-_96fc0e1b-cd9f-06dd-e185-2646b67f5244-3928bb35" class="txt24 answ">Можна, так як в клубі є весь навчальний матеріал і після освоєння базових навичок ви зможете розуміти думки трейдерів і відкривати угоди.</div></div></div></div><div class="hr"></div><div class="faq-itm"><div class="faq-top"><div class="faq-ttl"><div class="txt24">02</div><div class="txt44">Приєднавшись в клуб чи зможу я спілкуватися з іншими учасниками?</div></div><div class="faq-ico"><div class="faq-hr"></div><div class="faq-vr"></div></div></div><div class="faq-bot"><div class="faq-ttl"><div id="w-node-_36cbae9e-4dac-1ac9-51d4-fa3dc5ecff59-3928bb35" class="txt24 answ">Однозначно так! Вас чекатиме відкритий чат, в якому ви зможете задавати питання і спілкуватися з іншими трейдерами.</div></div></div></div><div class="hr"></div><div class="faq-itm"><div class="faq-top"><div class="faq-ttl"><div class="txt24">03</div><div class="txt44">Якщо немає всієї суми, чи можна скористатись розтермінуванням?</div></div><div class="faq-ico"><div class="faq-hr"></div><div class="faq-vr"></div></div></div><div class="faq-bot"><div class="faq-ttl"><div id="w-node-e26fee61-c0c2-e5fa-71d6-28b057bf9805-3928bb35" class="txt24 answ">Так. Можна розбити на два рівні платежі 12-ти місячну підписку і оплатити другу частину через місяць.</div></div></div></div><div class="hr"></div><div class="faq-itm"><div class="faq-top"><div class="faq-ttl"><div class="txt24">04</div><div class="txt44">Якщо я хочу вступити в клуб разом з другом, чи буде якийсь бонус?</div></div><div class="faq-ico"><div class="faq-hr"></div><div class="faq-vr"></div></div></div><div class="faq-bot"><div class="faq-ttl"><div id="w-node-_429722d9-ef02-a7f5-6dba-6063717046ba-3928bb35" class="txt24 answ">Так, якщо ви запрошуєте друга/подругу в клуб, то ви обоє отримуєте приємний подарунок у вигляді одного додаткового місяця в клубі.</div></div></div></div><div class="hr"></div><div class="faq-itm"><div class="faq-top"><div class="faq-ttl"><div class="txt24">05</div><div class="txt44">Чи можна оплатити за вхід криптою?</div></div><div class="faq-ico"><div class="faq-hr"></div><div class="faq-vr"></div></div></div><div class="faq-bot"><div class="faq-ttl"><div id="w-node-_38e45de5-daec-5330-3517-bba7fc5d8e4a-3928bb35" class="txt24 answ">Так, способів оплати є декілька в тому числі можна і криптою.</div></div></div></div><div class="hr"></div></div></div></div><div class="shadow fq"></div></section><section class="ftr"><div class="container2 ftr"><div class="ftr-grd"><div id="w-node-ce8e4809-7245-d5fb-8b36-113ac8267634-c8267631" class="ftr-col"><div class="txt32 upper grn">Меню</div><div class="ftr-links"><a href="/club" aria-current="page" class="nav-link w-inline-block w--current"><div class="txt20">Club</div></a><a href="/academy" class="nav-link w-inline-block"><div class="txt20">Academy</div></a><a href="/marathon" class="nav-link w-inline-block"><div class="txt20">Marathon</div></a><a href="/about" class="nav-link w-inline-block"><div class="txt20">про мене</div></a></div></div><div id="w-node-ce8e4809-7245-d5fb-8b36-113ac8267647-c8267631" class="ftr-col"><div class="txt32 upper grn">Нашi контакти</div><div class="ftr-links-wrp"><div class="ftr-links"><a href="https://t.me/CryptoBrain_Support" target="_blank" class="button-wrp w-inline-block"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64c37c338561c58fd47e1fe2_cib_telegram-plane.svg" loading="eager" alt="" class="sec-ico"/><div class="txt20">підтримка</div></a><a href="mailto:crypto.brain.sup@gmail.com" class="nav-link-copy lower w-inline-block"><div class="txt20">crypto.brain.sup@gmail.com</div></a></div><div class="socials-wrp"><a href="https://www.instagram.com/nazinvestor/" target="_blank" class="social-link w-inline-block"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64c3a8af644076fa467b0d5b_Frame.svg" loading="eager" alt="" class="soc-ico"/></a><a href="https://t.me/+zRfRm-LYhhNjZjc6" target="_blank" class="social-link w-inline-block"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64c3a8af5ad4485eed29225c_cib_telegram-plane.svg" loading="eager" alt="" class="soc-ico"/></a><a href="http://www.tiktok.com/@nazinvestor" target="_blank" class="social-link w-inline-block"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64c3a8af2af64bdc3739e6b8_ic_round-tiktok.svg" loading="eager" alt="" class="soc-ico"/></a><a href="https://www.youtube.com/@Crypto_Brain_Official" target="_blank" class="social-link w-inline-block"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64c3a8af2b0f016d650df822_ri_youtube-line.svg" loading="eager" alt="" class="soc-ico"/></a></div></div></div><div id="w-node-ce8e4809-7245-d5fb-8b36-113ac826765c-c8267631" class="ftr-col r"><a href="/" class="logo-link ftr _2 w-inline-block"><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64c37b1d761d2d11e18d4b73_CRYPRO%20BRAIN.svg" loading="eager" alt="" class="logo-im"/></a><div class="ftr-links r"><div class="ftr-txt-wrp"><div class="txt32 upper wd"><span class="mar-3 grn mob-no-mar">Вивчай свiт</span> крипти<span class="op0">_</span><span class="grn">&amp;</span><span class="op0">_</span>трейдингу <span class="mar-3 grn mob-no-mar">разом з нами</span></div><div class="txt16 al-r">Усі права належать компанії CRYPTO BRAIN. Надіслані Вами особисті дані та електронна адреса, не будуть використані для інших цілей</div></div><div class="txt16 al-r">© CRYPTO BRAIN, 2024 - Всі права захищені</div></div></div></div></div><div class="shadow"></div><img src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64c3b982e0471e67c222e819_Group%20317.webp" loading="eager" data-w-id="ce8e4809-7245-d5fb-8b36-113ac8267673" sizes="100vw" alt="" srcset="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64c3b982e0471e67c222e819_Group%20317-p-500.webp 500w, https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64c3b982e0471e67c222e819_Group%20317-p-800.webp 800w, https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64c3b982e0471e67c222e819_Group%20317-p-1080.webp 1080w, https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64c3b982e0471e67c222e819_Group%20317.webp 1521w" class="intr-coin-4"/><div class="background-video"><div data-w-id="d25d1223-f854-416b-bdb5-8170db212f3a" data-is-ix2-target="1" data-animation-type="lottie" data-src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/64db3d20a72589d10e1cc158_Green%20Monet.json" data-loop="1" data-direction="1" data-autoplay="0" data-renderer="svg" data-duration="0"></div><div class="shdw"></div></div></section></div><script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=646e2b0d529cb4c123d6612f" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/js/webflow.schunk.57d5559d2f0cd9f8.js" type="text/javascript"></script><script src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/js/webflow.schunk.eb79aa183a3fa57c.js" type="text/javascript"></script><script src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/js/webflow.schunk.f919141e3448519b.js" type="text/javascript"></script><script src="https://cdn.prod.website-files.com/646e2b0d529cb4c123d6612f/js/webflow.1d2f342d.50e98b0d7590b4ff.js" type="text/javascript"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script><script>
+jQuery(".owl-slider").owlCarousel({
+  loop: true,
+  margin: 20,
+  navText: [" ", " "], 
+  dots: false,
+  mouseDrag: false,
+  slideSpeed: 700,
+  rewindSpeed: 700,
+  nav: true,
+  responsive: {
+    0: {
+      items: 1.5,
+      rewind: false
+    },
+    479: {
+      items: 2.5,
+    },
+    992: {
+      items: 5.5,
+    },
+  }
+});
+	let link = document.querySelectorAll("#copy-btn");
+    link[0].addEventListener('click', () => {
+    navigator.clipboard.writeText("TLpLPxk9GZACedmSgu7W1x7yh3JfVCxjHk")
+    .then(() => { 
+    })
+    .catch(err => {
+      console.log('Something went wrong', err);
+    })
+  });
+  
+  
+//const slides = document.querySelectorAll(".owl-slider .slide-cont");
+//for(let i = 0; i < 20; i++) {
+//slides.forEach((slide) => {
+//  const clone = slide.cloneNode(true);
+//    document.querySelector(".owl-stage").appendChild(clone);
+//  });
+//}
+</script></body></html>
+0 commit comments
+Comments
+0
+ (0)
+Comment
+You're not receiving notifications from this thread.
+
+Create ф · KachurAndrii/anomaly-redirect@2f40cafThere are no files selected for viewing
